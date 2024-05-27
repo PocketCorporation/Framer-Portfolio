@@ -1,9 +1,9 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
-import { TextGenerateEffect } from './TextGenerateEffect'
-import MagicButton from './MagicButton'
+import { TextGenerateEffect } from './ui/TextGenerateEffect'
+import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from "react-icons/fa6";
-import ShimmerButton from './ShimmerButton';
+import ShimmerButton from './ui/ShimmerButton';
 
 
 const Hero = () => {

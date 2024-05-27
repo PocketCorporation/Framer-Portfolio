@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Hero from '@/components/Hero'
-import { FloatingNav } from "@/components/FloatingNavbar";
+import { FloatingNav } from "@/components/ui/FloatingNav";
 import { FaHouse } from "react-icons/fa6";
+import Grid from "@/components/Grid";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
             {name: 'Home', link: '/', icon: <FaHouse />}
           ]}/>
           <Hero />
+          <Grid />
       </div>
     </main>
   );
